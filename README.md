@@ -4,9 +4,9 @@ This repository contains the Geant4 simulation code used in my thesis. Everythin
 **Scope:** code only (no data). Build instructions are standard CMake as in Geant4 examples.
 
 ## Simulations
-- **B4c-single** - single scoring volume
+- **B4c-single** - single scoring volume (cubic or spheric)
 - **B4c-multiple** - nanoparticle grid around a central nanoparticle
-- **B4c-macroscopic** - larger scoring volumes
+- **B4c-macroscopic** - larger scoring volumes (cylindrical)
 
 ## Requirements
 - Geant4 (version used in thesis: v11.0.1), C++17, CMake ≥ 3.16
