@@ -24,8 +24,8 @@
 # Set up the general particle source
 /gps/particle proton
 
-# No. of particles per event -- all particles shooted from same position
-/gps/number 10
+# No. of particles per event
+/gps/number 1
 
 # Energy of particles
 /gps/energy 100 MeV
@@ -43,8 +43,5 @@
 # /gps/ang/sigma_theta 1 deg     # 1 degree standard deviation - 68% of particles will be withing +-1deg of main direction
 # /gps/ang/maxtheta 3 deg        # max angular extent
 
-# No. of events -- new random position for each event
-#/run/beamOn 1000000 # 10^6
-#/run/beamOn 10000000 # 10^7
-#/run/beamOn 100000 # 10^5
+# No. of events - new random position for each event
 /run/beamOn 1000000

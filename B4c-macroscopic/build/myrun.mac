@@ -38,11 +38,8 @@
 
 # Angular distribution
 # /gps/ang/type beam             # emit particles mosty in one direction, but allow some variation around it, unlike iso
-# /gps/ang/sigma_theta 1 deg     # 1 degree standard deviation - 68% of particles will be withing +-1deg of main direction
+# /gps/ang/sigma_theta 1 deg     # 1 degree standard deviation - 68% of particles will be within +-1deg of main direction
 # /gps/ang/maxtheta 3 deg        # max angular extent
 
-# No. of events -- new random position for each event
-#/run/beamOn 1000000 # 10^6
-#/run/beamOn 10000000 # 10^7
+# No. of events - new random position for each event
 /run/beamOn 100000 # 10^5
-#/run/beamOn 1000

@@ -161,9 +161,10 @@ G4VPhysicalVolume* DetectorConstruction::DefineVolumes()
                  fCheckOverlaps);  // checking overlaps
 
   //
-  // Sensitive Sphere (Detector)
+  // Sensitive Detector
   //
 /*
+  // Sphere
   auto SensitiveDetectorS
 	= new G4Sphere("SensitiveDetector",	// its name
 			0., 			// its inner radius (solid sphere)
@@ -171,6 +172,8 @@ G4VPhysicalVolume* DetectorConstruction::DefineVolumes()
 			0.*deg, 360.*deg,	// its phi angles (full sphere)
 			0.*deg, 180.*deg);	// its theta angles (full sphere)
 */
+
+  // Cube
   auto SensitiveDetectorS
 	= new G4Box("SensitiveDetector",		// its name
 			SD_sizeX/2, 		// its half length in X
@@ -194,110 +197,7 @@ G4VPhysicalVolume* DetectorConstruction::DefineVolumes()
 		0,				// copy number
 		fCheckOverlaps);		// checking overlaps
 
-/*
-  //
-  // Calorimeter
-  //
-  auto calorimeterS
-    = new G4Box("Calorimeter",     // its name
-                 calorSizeXY/2, calorSizeXY/2, calorThickness/2); // its size
 
-  auto calorLV
-    = new G4LogicalVolume(
-                 calorimeterS,     // its solid
-                 defaultMaterial,  // its material
-                 "Calorimeter");   // its name
-
-  new G4PVPlacement(
-                 0,                // no rotation
-                 G4ThreeVector(),  // at (0,0,0)
-                 calorLV,          // its logical volume
-                 "Calorimeter",    // its name
-                 worldLV,          // its mother  volume
-                 false,            // no boolean operation
-                 0,                // copy number
-                 fCheckOverlaps);  // checking overlaps
-
-  //
-  // Layer
-  //
-  auto layerS
-    = new G4Box("Layer",           // its name
-                 calorSizeXY/2, calorSizeXY/2, layerThickness/2); //its size
-
-  auto layerLV
-    = new G4LogicalVolume(
-                 layerS,           // its solid
-                 defaultMaterial,  // its material
-                 "Layer");         // its name
-
-  new G4PVReplica(
-                 "Layer",          // its name
-                 layerLV,          // its logical volume
-                 calorLV,          // its mother
-                 kZAxis,           // axis of replication
-                 fNofLayers,        // number of replica
-                 layerThickness);  // witdth of replica
-
-  //
-  // Absorber
-  //
-  auto absorberS
-    = new G4Box("Abso",            // its name
-                 calorSizeXY/2, calorSizeXY/2, absoThickness/2); // its size
-
-  auto absorberLV
-    = new G4LogicalVolume(
-                 absorberS,        // its solid
-                 absorberMaterial, // its material
-                 "AbsoLV");        // its name
-
-   new G4PVPlacement(
-                 0,                // no rotation
-                 G4ThreeVector(0., 0., -gapThickness/2), // its position
-                 absorberLV,       // its logical volume
-                 "Abso",           // its name
-                 layerLV,          // its mother  volume
-                 false,            // no boolean operation
-                 0,                // copy number
-                 fCheckOverlaps);  // checking overlaps
-
-  //
-  // Gap
-  //
-  auto gapS
-    = new G4Box("Gap",             // its name
-                 calorSizeXY/2, calorSizeXY/2, gapThickness/2); // its size
-
-  auto gapLV
-    = new G4LogicalVolume(
-                 gapS,             // its solid
-                 gapMaterial,      // its material
-                 "GapLV");         // its name
-
-  new G4PVPlacement(
-                 0,                // no rotation
-                 G4ThreeVector(0., 0., absoThickness/2), // its position
-                 gapLV,            // its logical volume
-                 "Gap",            // its name
-                 layerLV,          // its mother  volume
-                 false,            // no boolean operation
-                 0,                // copy number
-                 fCheckOverlaps);  // checking overlaps
-
-  //
-  // print parameters
-  //
-  G4cout
-    << G4endl
-    << "------------------------------------------------------------" << G4endl
-    << "---> The calorimeter is " << fNofLayers << " layers of: [ "
-    << absoThickness/mm << "mm of " << absorberMaterial->GetName()
-    << " + "
-    << gapThickness/mm << "mm of " << gapMaterial->GetName() << " ] " << G4endl
-    << "------------------------------------------------------------" << G4endl;
-*/
-  //
   // Visualization attributes
   //
  // worldLV->SetVisAttributes (G4VisAttributes::GetInvisible());
@@ -326,16 +226,7 @@ void DetectorConstruction::ConstructSDandField()
   G4SDManager::GetSDMpointer()->AddNewDetector(SensitiveDetector); 		// register the SD in Geant4's SD manager
   SetSensitiveDetector("SensitiveDetector", SensitiveDetector);			// assign sensitive detector to the logical volume
 
-  /*auto absoSD
-    = new CalorimeterSD("AbsorberSD", "AbsorberHitsCollection", fNofLayers);
-  G4SDManager::GetSDMpointer()->AddNewDetector(absoSD);
-  SetSensitiveDetector("AbsoLV",absoSD);
-
-  auto gapSD
-    = new CalorimeterSD("GapSD", "GapHitsCollection", fNofLayers);
-  G4SDManager::GetSDMpointer()->AddNewDetector(gapSD);
-  SetSensitiveDetector("GapLV",gapSD);
-*/
+ 
   //
   // Magnetic field
   //

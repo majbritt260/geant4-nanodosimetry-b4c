@@ -164,9 +164,11 @@ G4VPhysicalVolume* DetectorConstruction::DefineVolumes()
                  fCheckOverlaps);  // checking overlaps
 
   //
-  // Sensitive Sphere (Detector)
+  // Sensitive Detector
   //
+
  /*
+  // Sphere
   auto SensitiveDetectorS
 	= new G4Sphere("SensitiveDetector",	// its name
 			0., 			// its inner radius (solid sphere)
@@ -174,6 +176,7 @@ G4VPhysicalVolume* DetectorConstruction::DefineVolumes()
 			0.*deg, 360.*deg,	// its phi angles (full sphere)
 			0.*deg, 180.*deg);	// its theta angles (full sphere)
 */
+  // Cube
   auto SensitiveDetectorS
 	= new G4Box("SensitiveDetector",	// its name
 			SD_sizeX/2, 		// its half length in X
@@ -186,13 +189,6 @@ G4VPhysicalVolume* DetectorConstruction::DefineVolumes()
 			SDMaterial,		// its material
 			"SensitiveDetector");	// its name
 
-// Variable placements for Bragg-Peak measurements
-
-// Placement 1: 500 nm from entrance
-//G4Double center_z =  -worldHeight/2 + 500 * nm;
-// Placement 2: 7.718 cm from entrance --> range of 100 MeV protons in water (according to NIST PSTAR)
-//G4Double center_z =  -worldHeight/2 + 7.7 * cm;
-
 
   // Coordinates for the center of SD arrangement
   G4double center_x = 0 * nm;
@@ -200,9 +196,9 @@ G4VPhysicalVolume* DetectorConstruction::DefineVolumes()
   G4double center_z = - 4.99 * cm; // -worldHeight/2 + 6 * cm;
 
   // Amount of SDs in each direction - only odd numbers allowed!
-  int num_SDs_x = 10;
-  int num_SDs_y = 10;
-  int num_SDs_z = 10;
+  int num_SDs_x = 11;
+  int num_SDs_y = 11;
+  int num_SDs_z = 11;
 
   G4cout << "Amount of Sensitive Detectors: " << num_SDs_x * num_SDs_y * num_SDs_z << G4endl;
 

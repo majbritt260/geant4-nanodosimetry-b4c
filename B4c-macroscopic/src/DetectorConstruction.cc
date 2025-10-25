@@ -130,7 +130,7 @@ G4VPhysicalVolume* DetectorConstruction::DefineVolumes()
   G4double phanHeight = worldHeight - gap;
   G4double phan_z = gap/2;
 
-  // Be aware that placement moves with mothervolume
+  // Be aware that placement moves with mother volume
   G4double SD_Radius = worldRadius;
   G4double SD_Height = 1 * um;
   [[maybe_unused]] const G4double e = -phanHeight/2 + SD_Height/2; // entrance
