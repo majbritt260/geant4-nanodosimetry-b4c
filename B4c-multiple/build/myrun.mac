@@ -1,0 +1,50 @@
+
+# Set cutting threshold
+/run/setCut 0.0000001 mm #0.1 nm
+
+# Choose physics list
+#/microyz/phys/addPhysics  liv	        
+#/microyz/phys/addPhysics  pene	        
+#/microyz/phys/addPhysics  dna_opt2	        
+#/microyz/phys/addPhysics  dna_opt4	        
+#/microyz/phys/addPhysics  dna_opt6	
+#/microyz/phys/addPhysics  emstandard_opt4
+/microyz/phys/addPhysics   emStd4_hadCustom
+#/microyz/phys/addPhysics  penelope_hadCustom
+
+#Initialize run
+/run/initialize
+
+# Verbosity settings 
+#/run/verbose 2
+#/event/verbose 2
+/tracking/verbose 0
+#/particle/verbose 2
+
+# Set up the general particle source
+/gps/particle proton
+
+# No. of particles per event -- all particles shooted from same position
+/gps/number 10
+
+# Energy of particles
+/gps/energy 100 MeV
+
+# Direction and position
+/gps/direction 0 0 1
+/gps/pos/type Plane
+/gps/pos/shape Circle
+/gps/pos/centre 0 0 -5 cm
+/gps/pos/radius 0.99 cm # leaves 100 micro meters, to have no loss of secondaries outside 1 cm radius world cylinder
+#/gps/pos/radius 0.00001 mm
+
+# Angular distribution
+# /gps/ang/type beam             # emit particles mosty in one direction, but allow some variation around it, unlike iso
+# /gps/ang/sigma_theta 1 deg     # 1 degree standard deviation - 68% of particles will be withing +-1deg of main direction
+# /gps/ang/maxtheta 3 deg        # max angular extent
+
+# No. of events -- new random position for each event
+#/run/beamOn 1000000 # 10^6
+#/run/beamOn 10000000 # 10^7
+#/run/beamOn 100000 # 10^5
+/run/beamOn 1000000

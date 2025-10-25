@@ -1,0 +1,31 @@
+
+# Set cutting threshold
+/run/setCut 0.0000001 mm #0.1 nm
+
+
+# Choose physics list
+#/microyz/phys/addPhysics  liv	        
+#/microyz/phys/addPhysics  pene	        
+#/microyz/phys/addPhysics  dna_opt2	        
+/microyz/phys/addPhysics  dna_opt4	        
+#/microyz/phys/addPhysics  dna_opt6	
+#/microyz/phys/addPhysics  emstandard_opt4
+#/microyz/phys/addPhysics   emStd4_hadCustom
+#/microyz/phys/addPhysics  penelope_hadCustom
+
+#Initialize run
+/run/initialize
+
+# Verbosity settings 
+#/run/verbose 2
+#/event/verbose 2
+/tracking/verbose 0
+#/particle/verbose 2
+
+# Set up the particle gun
+/gun/particle proton
+/gun/energy 100 MeV
+
+# No. of events
+/run/beamOn 1000000 # 10^6
+#/run/beamOn 10000000 # 10^7
