@@ -1,6 +1,6 @@
 
 # Set cutting threshold
-/run/setCut 0.0000001 mm #0.1 nm
+/run/setCut 0.0000001 mm # 0.1 nm
 
 
 # Choose physics list

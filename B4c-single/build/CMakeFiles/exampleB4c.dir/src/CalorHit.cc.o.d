@@ -1,6 +1,6 @@
 CMakeFiles/exampleB4c.dir/src/CalorHit.cc.o: \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/CalorHit.cc \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/CalorHit.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/CalorHit.cc \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/CalorHit.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VHit.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/globals.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4ios.hh \

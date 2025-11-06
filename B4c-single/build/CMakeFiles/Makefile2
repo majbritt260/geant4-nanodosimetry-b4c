@@ -54,10 +54,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single
+CMAKE_SOURCE_DIR = /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build
+CMAKE_BINARY_DIR = /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/exampleB4c.dir/clean
 CMakeFiles/exampleB4c.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleB4c.dir/build.make CMakeFiles/exampleB4c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleB4c.dir/build.make CMakeFiles/exampleB4c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target exampleB4c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target exampleB4c"
 .PHONY : CMakeFiles/exampleB4c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/exampleB4c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/exampleB4c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build/CMakeFiles 0
 .PHONY : CMakeFiles/exampleB4c.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ exampleB4c: CMakeFiles/exampleB4c.dir/rule
 # codegen rule for target.
 CMakeFiles/exampleB4c.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleB4c.dir/build.make CMakeFiles/exampleB4c.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Finished codegen for target exampleB4c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Finished codegen for target exampleB4c"
 .PHONY : CMakeFiles/exampleB4c.dir/codegen
 
 # clean rule for target.

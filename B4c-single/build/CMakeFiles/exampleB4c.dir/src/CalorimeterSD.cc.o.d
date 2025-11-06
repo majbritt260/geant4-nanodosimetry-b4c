@@ -1,6 +1,6 @@
 CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.o: \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/CalorimeterSD.cc \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/CalorimeterSD.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/CalorimeterSD.cc \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/CalorimeterSD.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VHit.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/globals.hh \
@@ -1139,7 +1139,7 @@ CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.o: \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4TouchableHistory.icc \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4CollectionNameVector.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VSDFilter.hh \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/CalorHit.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/CalorHit.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4THitsCollection.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4SDManager.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4SDStructure.hh \

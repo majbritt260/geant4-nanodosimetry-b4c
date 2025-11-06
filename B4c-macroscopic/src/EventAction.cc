@@ -85,7 +85,7 @@ void EventAction::BeginOfEventAction(const G4Event* event)
   // Clear txt file on first event
   if (event->GetEventID() == 0) {
       std::ofstream outFile("data.txt", std::ios::trunc);
-      outFile << "EventID;tEnergy(keV);IonYield\n";  // Write header
+      outFile << "EventID;Energy(keV);IonYield\n";  // Write header
       outFile.close();
      }
 }

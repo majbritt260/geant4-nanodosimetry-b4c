@@ -84,7 +84,7 @@ G4bool CalorimeterSD::ProcessHits(G4Step* step,
   // Energy deposit
   auto edep = step->GetTotalEnergyDeposit();
 
-  // Step length --> only charged particles have meaningful step-length data
+  // Step lengtha
   G4double stepLength = 0.;
   if ( step->GetTrack()->GetDefinition()->GetPDGCharge() != 0. ) {
     stepLength = step->GetStepLength();

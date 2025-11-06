@@ -1,8 +1,8 @@
 CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.o: \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/ActionInitialization.cc \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/ActionInitialization.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/ActionInitialization.cc \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/ActionInitialization.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VUserActionInitialization.hh \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/PrimaryGeneratorAction.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/PrimaryGeneratorAction.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/globals.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4ios.hh \
@@ -977,11 +977,11 @@ CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iomanip \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tree \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/RunAction.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/RunAction.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4UserRunAction.hh \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/EventAction.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/EventAction.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4UserEventAction.hh \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/CalorHit.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/CalorHit.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VHit.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4THitsCollection.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VHitsCollection.hh \

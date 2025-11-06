@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single
+CMAKE_SOURCE_DIR = /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build
+CMAKE_BINARY_DIR = /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/exampleB4c.dir/depend.make
@@ -73,144 +73,144 @@ CMakeFiles/exampleB4c.dir/codegen:
 .PHONY : CMakeFiles/exampleB4c.dir/codegen
 
 CMakeFiles/exampleB4c.dir/exampleB4c.cc.o: CMakeFiles/exampleB4c.dir/flags.make
-CMakeFiles/exampleB4c.dir/exampleB4c.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/exampleB4c.cc
+CMakeFiles/exampleB4c.dir/exampleB4c.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/exampleB4c.cc
 CMakeFiles/exampleB4c.dir/exampleB4c.cc.o: CMakeFiles/exampleB4c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampleB4c.dir/exampleB4c.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/exampleB4c.cc.o -MF CMakeFiles/exampleB4c.dir/exampleB4c.cc.o.d -o CMakeFiles/exampleB4c.dir/exampleB4c.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/exampleB4c.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/exampleB4c.dir/exampleB4c.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/exampleB4c.cc.o -MF CMakeFiles/exampleB4c.dir/exampleB4c.cc.o.d -o CMakeFiles/exampleB4c.dir/exampleB4c.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/exampleB4c.cc
 
 CMakeFiles/exampleB4c.dir/exampleB4c.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampleB4c.dir/exampleB4c.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/exampleB4c.cc > CMakeFiles/exampleB4c.dir/exampleB4c.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/exampleB4c.cc > CMakeFiles/exampleB4c.dir/exampleB4c.cc.i
 
 CMakeFiles/exampleB4c.dir/exampleB4c.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampleB4c.dir/exampleB4c.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/exampleB4c.cc -o CMakeFiles/exampleB4c.dir/exampleB4c.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/exampleB4c.cc -o CMakeFiles/exampleB4c.dir/exampleB4c.cc.s
 
 CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.o: CMakeFiles/exampleB4c.dir/flags.make
-CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/ActionInitialization.cc
+CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/ActionInitialization.cc
 CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.o: CMakeFiles/exampleB4c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.o -MF CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/ActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.o -MF CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.o.d -o CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/ActionInitialization.cc
 
 CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/ActionInitialization.cc > CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/ActionInitialization.cc > CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.i
 
 CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/ActionInitialization.cc -o CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/ActionInitialization.cc -o CMakeFiles/exampleB4c.dir/src/ActionInitialization.cc.s
 
 CMakeFiles/exampleB4c.dir/src/CalorHit.cc.o: CMakeFiles/exampleB4c.dir/flags.make
-CMakeFiles/exampleB4c.dir/src/CalorHit.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/CalorHit.cc
+CMakeFiles/exampleB4c.dir/src/CalorHit.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/CalorHit.cc
 CMakeFiles/exampleB4c.dir/src/CalorHit.cc.o: CMakeFiles/exampleB4c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampleB4c.dir/src/CalorHit.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/CalorHit.cc.o -MF CMakeFiles/exampleB4c.dir/src/CalorHit.cc.o.d -o CMakeFiles/exampleB4c.dir/src/CalorHit.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/CalorHit.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/exampleB4c.dir/src/CalorHit.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/CalorHit.cc.o -MF CMakeFiles/exampleB4c.dir/src/CalorHit.cc.o.d -o CMakeFiles/exampleB4c.dir/src/CalorHit.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/CalorHit.cc
 
 CMakeFiles/exampleB4c.dir/src/CalorHit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampleB4c.dir/src/CalorHit.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/CalorHit.cc > CMakeFiles/exampleB4c.dir/src/CalorHit.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/CalorHit.cc > CMakeFiles/exampleB4c.dir/src/CalorHit.cc.i
 
 CMakeFiles/exampleB4c.dir/src/CalorHit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampleB4c.dir/src/CalorHit.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/CalorHit.cc -o CMakeFiles/exampleB4c.dir/src/CalorHit.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/CalorHit.cc -o CMakeFiles/exampleB4c.dir/src/CalorHit.cc.s
 
 CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.o: CMakeFiles/exampleB4c.dir/flags.make
-CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/CalorimeterSD.cc
+CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/CalorimeterSD.cc
 CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.o: CMakeFiles/exampleB4c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.o -MF CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.o.d -o CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/CalorimeterSD.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.o -MF CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.o.d -o CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/CalorimeterSD.cc
 
 CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/CalorimeterSD.cc > CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/CalorimeterSD.cc > CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.i
 
 CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/CalorimeterSD.cc -o CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/CalorimeterSD.cc -o CMakeFiles/exampleB4c.dir/src/CalorimeterSD.cc.s
 
 CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.o: CMakeFiles/exampleB4c.dir/flags.make
-CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/DetectorConstruction.cc
+CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/DetectorConstruction.cc
 CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.o: CMakeFiles/exampleB4c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/DetectorConstruction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.o -MF CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.o.d -o CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/DetectorConstruction.cc
 
 CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/DetectorConstruction.cc > CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/DetectorConstruction.cc > CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.i
 
 CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/DetectorConstruction.cc -o CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/DetectorConstruction.cc -o CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.s
 
 CMakeFiles/exampleB4c.dir/src/EventAction.cc.o: CMakeFiles/exampleB4c.dir/flags.make
-CMakeFiles/exampleB4c.dir/src/EventAction.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/EventAction.cc
+CMakeFiles/exampleB4c.dir/src/EventAction.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/EventAction.cc
 CMakeFiles/exampleB4c.dir/src/EventAction.cc.o: CMakeFiles/exampleB4c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampleB4c.dir/src/EventAction.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/EventAction.cc.o -MF CMakeFiles/exampleB4c.dir/src/EventAction.cc.o.d -o CMakeFiles/exampleB4c.dir/src/EventAction.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/EventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/exampleB4c.dir/src/EventAction.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/EventAction.cc.o -MF CMakeFiles/exampleB4c.dir/src/EventAction.cc.o.d -o CMakeFiles/exampleB4c.dir/src/EventAction.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/EventAction.cc
 
 CMakeFiles/exampleB4c.dir/src/EventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampleB4c.dir/src/EventAction.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/EventAction.cc > CMakeFiles/exampleB4c.dir/src/EventAction.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/EventAction.cc > CMakeFiles/exampleB4c.dir/src/EventAction.cc.i
 
 CMakeFiles/exampleB4c.dir/src/EventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampleB4c.dir/src/EventAction.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/EventAction.cc -o CMakeFiles/exampleB4c.dir/src/EventAction.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/EventAction.cc -o CMakeFiles/exampleB4c.dir/src/EventAction.cc.s
 
 CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.o: CMakeFiles/exampleB4c.dir/flags.make
-CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/PhysicsList.cc
+CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/PhysicsList.cc
 CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.o: CMakeFiles/exampleB4c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.o -MF CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.o.d -o CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/PhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.o -MF CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.o.d -o CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/PhysicsList.cc
 
 CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/PhysicsList.cc > CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/PhysicsList.cc > CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.i
 
 CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/PhysicsList.cc -o CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/PhysicsList.cc -o CMakeFiles/exampleB4c.dir/src/PhysicsList.cc.s
 
 CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.o: CMakeFiles/exampleB4c.dir/flags.make
-CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/PhysicsListMessenger.cc
+CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/PhysicsListMessenger.cc
 CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.o: CMakeFiles/exampleB4c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.o -MF CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.o.d -o CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/PhysicsListMessenger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.o -MF CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.o.d -o CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/PhysicsListMessenger.cc
 
 CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/PhysicsListMessenger.cc > CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/PhysicsListMessenger.cc > CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.i
 
 CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/PhysicsListMessenger.cc -o CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/PhysicsListMessenger.cc -o CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.s
 
 CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/exampleB4c.dir/flags.make
-CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/PrimaryGeneratorAction.cc
+CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/PrimaryGeneratorAction.cc
 CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.o: CMakeFiles/exampleB4c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/PrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.o -MF CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.o.d -o CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/PrimaryGeneratorAction.cc
 
 CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/PrimaryGeneratorAction.cc > CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/PrimaryGeneratorAction.cc > CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.i
 
 CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/PrimaryGeneratorAction.cc -o CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/PrimaryGeneratorAction.cc -o CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.s
 
 CMakeFiles/exampleB4c.dir/src/RunAction.cc.o: CMakeFiles/exampleB4c.dir/flags.make
-CMakeFiles/exampleB4c.dir/src/RunAction.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/RunAction.cc
+CMakeFiles/exampleB4c.dir/src/RunAction.cc.o: /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/RunAction.cc
 CMakeFiles/exampleB4c.dir/src/RunAction.cc.o: CMakeFiles/exampleB4c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/exampleB4c.dir/src/RunAction.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/RunAction.cc.o -MF CMakeFiles/exampleB4c.dir/src/RunAction.cc.o.d -o CMakeFiles/exampleB4c.dir/src/RunAction.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/RunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/exampleB4c.dir/src/RunAction.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/exampleB4c.dir/src/RunAction.cc.o -MF CMakeFiles/exampleB4c.dir/src/RunAction.cc.o.d -o CMakeFiles/exampleB4c.dir/src/RunAction.cc.o -c /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/RunAction.cc
 
 CMakeFiles/exampleB4c.dir/src/RunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/exampleB4c.dir/src/RunAction.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/RunAction.cc > CMakeFiles/exampleB4c.dir/src/RunAction.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/RunAction.cc > CMakeFiles/exampleB4c.dir/src/RunAction.cc.i
 
 CMakeFiles/exampleB4c.dir/src/RunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/exampleB4c.dir/src/RunAction.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/RunAction.cc -o CMakeFiles/exampleB4c.dir/src/RunAction.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/RunAction.cc -o CMakeFiles/exampleB4c.dir/src/RunAction.cc.s
 
 # Object files for target exampleB4c
 exampleB4c_OBJECTS = \
@@ -289,7 +289,7 @@ exampleB4c: /Users/majbritt/Repositories/Geant4-v11/geant4-install/lib/libG4glob
 exampleB4c: /Users/majbritt/Repositories/Geant4-v11/geant4-install/lib/libG4clhep.dylib
 exampleB4c: /Users/majbritt/Repositories/Geant4-v11/geant4-install/lib/libG4ptl.0.0.2.dylib
 exampleB4c: CMakeFiles/exampleB4c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable exampleB4c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable exampleB4c"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exampleB4c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -301,6 +301,6 @@ CMakeFiles/exampleB4c.dir/clean:
 .PHONY : CMakeFiles/exampleB4c.dir/clean
 
 CMakeFiles/exampleB4c.dir/depend:
-	cd /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/build/CMakeFiles/exampleB4c.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/build/CMakeFiles/exampleB4c.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/exampleB4c.dir/depend
 

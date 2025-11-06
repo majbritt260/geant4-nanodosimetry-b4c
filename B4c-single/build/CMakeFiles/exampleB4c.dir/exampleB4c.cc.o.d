@@ -1,6 +1,6 @@
 CMakeFiles/exampleB4c.dir/exampleB4c.cc.o: \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/exampleB4c.cc \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/PhysicsList.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/exampleB4c.cc \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/PhysicsList.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VModularPhysicsList.hh \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/copy.h \
@@ -1056,9 +1056,9 @@ CMakeFiles/exampleB4c.dir/exampleB4c.cc.o: \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/geomwdefs.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4Region.icc \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4PhysicsModelCatalog.hh \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/DetectorConstruction.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/DetectorConstruction.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/ActionInitialization.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/ActionInitialization.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VUserActionInitialization.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4RunManagerFactory.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4RunManager.hh \

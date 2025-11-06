@@ -1,8 +1,8 @@
 CMakeFiles/exampleB4c.dir/src/EventAction.cc.o: \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/EventAction.cc \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/EventAction.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/EventAction.cc \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/EventAction.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4UserEventAction.hh \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/CalorHit.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/CalorHit.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VHit.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/globals.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4ios.hh \
@@ -1017,7 +1017,7 @@ CMakeFiles/exampleB4c.dir/src/EventAction.cc.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__stop_token/stop_source.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/thread.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__thread/this_thread.h \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/CalorimeterSD.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/CalorimeterSD.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4Step.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VPhysicalVolume.hh \

@@ -24,7 +24,7 @@
 // ********************************************************************
 //
 // This example is provided by the Geant4-DNA collaboration
-// Any report or published results obtained using the Geant4-DNA software 
+// Any report or published results obtained using the Geant4-DNA software
 // shall cite the following Geant4-DNA collaboration publications:
 // Phys. Med. 31 (2015) 861-874
 // Med. Phys. 37 (2010) 4692-4708
@@ -48,19 +48,19 @@ class G4UIcmdWithAString;
 class PhysicsListMessenger: public G4UImessenger
 {
   public:
-  
+
     PhysicsListMessenger(PhysicsList* );
    ~PhysicsListMessenger();
-    
+
     virtual void SetNewValue(G4UIcommand*, G4String);
-    
+
   private:
-  
+
     PhysicsList*               fPhysicsList;
-    
-    G4UIdirectory*             fPhysDir;        
+
+    G4UIdirectory*             fPhysDir;
     G4UIcmdWithAString*        fListCmd;
-    
+
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

@@ -1,6 +1,6 @@
 CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.o: \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/PhysicsListMessenger.cc \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/PhysicsListMessenger.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/PhysicsListMessenger.cc \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/PhysicsListMessenger.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/globals.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4ios.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4Types.hh \
@@ -984,7 +984,7 @@ CMakeFiles/exampleB4c.dir/src/PhysicsListMessenger.cc.o: \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.h \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/CLHEP/Utility/defs.h \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/CLHEP/Vector/ThreeVector.icc \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/PhysicsList.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/PhysicsList.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VModularPhysicsList.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/rundefs.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VPhysicsConstructor.hh \

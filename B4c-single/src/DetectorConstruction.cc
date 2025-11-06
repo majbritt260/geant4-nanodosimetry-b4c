@@ -118,10 +118,10 @@ G4VPhysicalVolume* DetectorConstruction::DefineVolumes()
   G4cout << "State of Water: " << GetStateString(water->GetState()) << G4endl;
 
   // Geometry parameters for sphere and cylinder
-  G4double SD_sizeX = 100 * nm;
+  G4double SD_sizeX = 50 * nm;
   G4double SD_sizeY = SD_sizeX;
   G4double SD_sizeZ = SD_sizeX;;
-  G4double worldRadius = 20 * SD_sizeX;
+  G4double worldRadius = 10 * SD_sizeX;
   G4double worldHeight = 20 * SD_sizeX;
   auto worldMaterial = water;
   auto SDMaterial = water;

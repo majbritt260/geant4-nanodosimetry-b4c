@@ -1,6 +1,6 @@
 CMakeFiles/exampleB4c.dir/src/PrimaryGeneratorAction.cc.o: \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/PrimaryGeneratorAction.cc \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/PrimaryGeneratorAction.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/PrimaryGeneratorAction.cc \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/PrimaryGeneratorAction.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/globals.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4ios.hh \

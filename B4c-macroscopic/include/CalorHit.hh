@@ -73,9 +73,9 @@ class CalorHit : public G4VHit
     G4int GetIonYield() const;				// Declare method to return stored ionization yield
 
   private:
-    G4double fEdep = 0.;        ///< Energy deposit in the sensitive volume
-    G4double fTrackLength = 0.; ///< Track length in the  sensitive volume
-    G4int fIonYield = 0.;	///< Ionization yield in the sensitive volume
+    G4double fEdep = 0.;        // Energy deposit in the sensitive volume
+    G4double fTrackLength = 0.; // Track length in the  sensitive volume
+    G4int fIonYield = 0.;	// Ionization yield in the sensitive volume
 };
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

@@ -1,6 +1,6 @@
 CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.o: \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/src/DetectorConstruction.cc \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/DetectorConstruction.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/src/DetectorConstruction.cc \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/DetectorConstruction.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VUserDetectorConstruction.hh \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__algorithm/copy.h \
@@ -975,7 +975,7 @@ CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/iomanip \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/map \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk/usr/include/c++/v1/__tree \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/CalorimeterSD.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/CalorimeterSD.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VSensitiveDetector.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VHit.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4Step.hh \
@@ -1141,7 +1141,7 @@ CMakeFiles/exampleB4c.dir/src/DetectorConstruction.cc.o: \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4TouchableHistory.icc \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4CollectionNameVector.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4VSDFilter.hh \
-  /Users/majbritt/Repositories/Geant4-v11/geant4-project/B4c-single/include/CalorHit.hh \
+  /Users/majbritt/Repositories/Geant4-v11/geant4-thesis-github/B4c-single/include/CalorHit.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4THitsCollection.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4NistManager.hh \
   /Users/majbritt/Repositories/Geant4-v11/geant4-install/include/Geant4/G4NistElementBuilder.hh \

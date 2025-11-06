@@ -47,4 +47,11 @@
 /gui/addButton viewer "Flush viewer (= refresh + update)" "/vis/viewer/flush"
 /gui/addButton viewer "Update scene" "/vis/scene/notifyHandlers"
 /run/printProgress 100
-/run/beamOn 1
+/vis/viewer/set/viewpointVector -0.734736 0.515038 0.441474
+/vis/viewer/refresh
+/run/setCut 0.0000001 mm #0.1 nm
+/tracking/storeTrajectory 1
+/vis/scene/add/trajectories rich
+/tracking/storeTrajectory 3
+/vis/scene/notifyHandlers
+/run/initialize

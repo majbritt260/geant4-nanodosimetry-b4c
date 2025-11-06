@@ -122,8 +122,7 @@ G4VPhysicalVolume* DetectorConstruction::DefineVolumes()
   G4double SD_sizeY = SD_sizeX;
   G4double SD_sizeZ = SD_sizeX;
 
-  // Long cylinder for Bragg-Peak measurements
-  G4double worldRadius = 1 * cm; // 2 cm diameter
+  G4double worldRadius = 1 * cm;
   G4double worldHeight = 10 * cm;
 
   auto worldMaterial = water;
@@ -193,7 +192,7 @@ G4VPhysicalVolume* DetectorConstruction::DefineVolumes()
   // Coordinates for the center of SD arrangement
   G4double center_x = 0 * nm;
   G4double center_y = 0 * nm;
-  G4double center_z = - 4.99 * cm; // -worldHeight/2 + 6 * cm;
+  G4double center_z = - 4.99 * cm;
 
   // Amount of SDs in each direction - only odd numbers allowed!
   int num_SDs_x = 11;
